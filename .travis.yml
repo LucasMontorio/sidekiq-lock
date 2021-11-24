@@ -9,7 +9,9 @@ gemfile:
   - gemfiles/sidekiq_3.gemfile
   - gemfiles/sidekiq_4.gemfile
   - gemfiles/sidekiq_5.gemfile
-  - gemfiles/sidekiq_6.gemfile
+  - gemfiles/sidekiq_6.1.gemfile
+  - gemfiles/sidekiq_6.2.gemfile
+  - gemfiles/sidekiq_6.3.gemfile
 
 rvm:
   - 2.6.8

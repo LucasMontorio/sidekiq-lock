@@ -15,7 +15,7 @@ module Sidekiq
       end
 
       def lock_options(worker)
-        worker.class.get_sidekiq_options['lock']
+        worker.class.get_sidekiq_options['mutex']
       end
     end
   end

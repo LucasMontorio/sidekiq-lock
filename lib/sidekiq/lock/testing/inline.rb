@@ -1,5 +1,5 @@
 def set_sidekiq_lock(worker_class, payload)
-  options = worker_class.get_sidekiq_options['lock']
+  options = worker_class.get_sidekiq_options['mutex']
   Sidekiq.lock_container.store(Sidekiq::Lock::RedisLock.new(options, payload))
 end
 
